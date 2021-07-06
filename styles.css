@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+div.container{
+    border: 7px groove rgb(185, 185, 185);
+    background-color: rgb(212, 212, 212);
+    margin: 100px auto;
+    width: 500px;
+}
+div.plateau{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div.ligne> div{
+    border: 2px dotted black;
+    width: 60px;
+    height: 60px;
+    font-size: 3em;
+    text-align: center;
+}
+.ligne{
+    display: flex;
+    flex-direction: row;
+}
+.vide{
+    background-color: grey;
+    border: 2px dotted grey;
+    color: rgba(0, 0, 0, 0);
+}
+.vide:hover{
+    background-color:transparent;
+    color: rgb(238, 235, 34);
+    border: 2px dotted transparent;
+}
+.red{
+    color: rgb(255, 0, 0);
+}
+.blue{
+    color: rgb(0, 89, 255);
+}
+.green{
+    color: rgb(77, 153, 0);
+}
